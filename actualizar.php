@@ -4,13 +4,7 @@
 	if ($fila = $select -> fetch_assoc() ) {
 	}
  ?>
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>formulario de Registro</title>
-	</head>
-	<body>
+
 		<fieldset>
 			<label>Formulario </label>
 			<form action="guardar_actualizacion.php" method="post">
@@ -25,6 +19,5 @@
 				
 			</form>
 		</fieldset>
-	</body>
-</html>
+
 

@@ -1,11 +1,5 @@
 <?php include 'conexion.php' ?>
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>formulario de Registro</title>
-	</head>
-	<body>
+
 		<fieldset>
 			<legend>Formulario</legend>
 			<form action="guardar.php" method="post">
